@@ -12,7 +12,10 @@ class ViewController: UIViewController {
                             
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        view.backgroundColor = UIColor(hex: 0xFF8000)
+        
+        println("\(180.radian) - \(M_PI.degree)")
     }
 
     override func didReceiveMemoryWarning() {
